@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MasterRT</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../Qt/Docs/Qt-5.7/qtgraphicaleffects/images/Glow_butterfly.png</normaloff>../../../../Qt/Docs/Qt-5.7/qtgraphicaleffects/images/Glow_butterfly.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -37,13 +41,24 @@
      <height>19</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuMasterRT">
+   <widget class="QMenu" name="menu">
     <property name="title">
-     <string>База данных</string>
+     <string>Справочники</string>
     </property>
-    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="separator"/>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+    <addaction name="action_9"/>
+    <addaction name="action_10"/>
+    <addaction name="action_11"/>
+    <addaction name="separator"/>
+    <addaction name="action_13"/>
+    <addaction name="separator"/>
+    <addaction name="action_15"/>
    </widget>
-   <addaction name="menuMasterRT"/>
+   <addaction name="menu"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -54,9 +69,49 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="action">
+  <action name="action_2">
    <property name="text">
-    <string>Справочники</string>
+    <string>Свои реквизиты</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Клиенты</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Тип устройств</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Фирмы-производители</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Неисправности</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Места хранения</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>Комплектность устройств</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>ТМЦ</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>Виды работ и цены</string>
    </property>
   </action>
  </widget>
